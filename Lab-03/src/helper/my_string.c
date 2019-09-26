@@ -5,6 +5,7 @@ char *read_line(FILE *fp)
 {
     char buf[SIZE];
     fscanf(fp, "%[^\n]", buf);
+    fseek(fp, 1, SEEK_CUR);
     return strcpy((char *)malloc(sizeof(char) * strlen(buf)), buf);
 }
 
