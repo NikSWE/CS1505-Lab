@@ -26,4 +26,4 @@ my_string.o:
 
 # clean
 clean:
-	$(RM) machine *.o
+	$(RM) *.out *.o
