@@ -23,6 +23,7 @@ int main()
 
     // type = 0, machine = dfa
     // type = 1, machine = mealy
+    // type = 2, machine = moore
 
     int type = atoi(contents[0]);
     int alphabets = atoi(contents[1]);
