@@ -11,7 +11,7 @@ struct node
 
 void moore_machine(FILE *fp, int alphabets, int states)
 {
-    printf("Creating Mealy Machine\n");
+    printf("Creating Moore Machine\n");
 
     char **contents = split_string(read_line(fp));
 
