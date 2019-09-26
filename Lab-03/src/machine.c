@@ -21,7 +21,7 @@ int main()
     char **contents = split_string(read_line(fp));
 
     // type = 0, machine = dfa
-    // TODO: type = 1, machine = mealy
+    // type = 1, machine = mealy
 
     int type = atoi(contents[0]);
     int alphabets = atoi(contents[1]);
@@ -36,7 +36,7 @@ int main()
         dfa_machine(fp, alphabets, states);
         break;
     case 1:
-        // TODO: implement mealy machine
+        mealy_machine(fp, alphabets, states);
         break;
     default:
         printf("Machine Not Supported\n");
