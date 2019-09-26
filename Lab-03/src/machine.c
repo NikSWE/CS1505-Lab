@@ -5,6 +5,7 @@
 
 #include "dfa/dfa.h"
 #include "mealy/mealy.h"
+#include "moore/moore.h"
 #include "helper/my_string.h"
 
 int main()
@@ -37,6 +38,9 @@ int main()
         break;
     case 1:
         mealy_machine(fp, alphabets, states);
+        break;
+    case 2:
+        moore_machine(fp, alphabets, states);
         break;
     default:
         printf("Machine Not Supported\n");
