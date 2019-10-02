@@ -48,5 +48,6 @@ int main()
         break;
     }
 
+    fclose(fp);
     return EXIT_SUCCESS;
 }
