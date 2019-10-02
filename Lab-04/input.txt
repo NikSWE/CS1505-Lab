@@ -1,0 +1,9 @@
+ABS
+abcst
+5
+a->ABA
+A->aBbS
+A->$
+B->cBt
+B->$
+S
